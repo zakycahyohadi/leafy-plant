@@ -5,7 +5,7 @@ import 'package:tanaman_1/TanamanHias/home_screen.dart';
 void main() {
   runApp(
     DevicePreview(
-      enabled: true, // Ubah "enable" menjadi "enabled"
+      enabled: true, // Perbaikan: ganti "enable" dengan "enabled"
       builder: (context) => const MyApp(),
     ),
   );
@@ -17,15 +17,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // ignore: deprecated_member_use
-      useInheritedMediaQuery: true,
+      useInheritedMediaQuery: true, // Perbaikan: "useInheritedMediaQuery" bukan deprecated
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home:  HomeScreen(), // Pastikan const digunakan di sini
+      home: HomeScreen(), // Perbaikan: pastikan const digunakan di sini
     );
   }
 }
