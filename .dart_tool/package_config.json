@@ -110,6 +110,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "flutter_lints",
+      "rootUri": "file:///Users/cahyoapple45/.pub-cache/hosted/pub.dev/flutter_lints-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "flutter_localizations",
       "rootUri": "file:///Users/cahyoapple45/development/flutter/packages/flutter_localizations",
       "packageUri": "lib/",
@@ -168,6 +174,12 @@
       "rootUri": "file:///Users/cahyoapple45/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "lints",
+      "rootUri": "file:///Users/cahyoapple45/.pub-cache/hosted/pub.dev/lints-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
     },
     {
       "name": "matcher",
@@ -374,7 +386,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-09-06T07:46:17.489008Z",
+  "generated": "2024-09-09T02:08:13.119265Z",
   "generator": "pub",
   "generatorVersion": "3.5.1",
   "flutterRoot": "file:///Users/cahyoapple45/development/flutter",

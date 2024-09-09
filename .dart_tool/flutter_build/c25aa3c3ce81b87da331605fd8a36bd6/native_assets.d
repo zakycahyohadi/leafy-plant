@@ -1,0 +1,1 @@
+ /Users/cahyoapple45/Documents/flutter-project/leafy-plant/.dart_tool/flutter_build/c25aa3c3ce81b87da331605fd8a36bd6/native_assets.yaml: 
