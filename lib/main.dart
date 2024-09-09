@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // ignore: deprecated_member_use
       useInheritedMediaQuery: true, // Perbaikan: "useInheritedMediaQuery" bukan deprecated
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: HomeScreen(), // Perbaikan: pastikan const digunakan di sini
+      home: HomeScreen(), // Pastikan const digunakan di sini jika memungkinkan
     );
   }
 }
